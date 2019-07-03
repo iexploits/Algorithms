@@ -12,8 +12,8 @@
 
 |                          문제                          |                        코드 바로가기                         |
 | :----------------------------------------------------: | :----------------------------------------------------------: |
-|   [1로 만들기](https://www.acmicpc.net/problem/1463)   | [1로 만들기 풀이](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/makeOne.py) |
-| [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | [1,2,3 더하기 풀이](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/plusOneTwoThree.py) |
-|  [계단 오르기](https://www.acmicpc.net/problem/2579)   | [계단 오르기 풀이](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/inclineStairs.py) |
+|   [1로 만들기](https://www.acmicpc.net/problem/1463)   | https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/makeOne.py |
+| [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/plusOneTwoThree.py |
+|  [계단 오르기](https://www.acmicpc.net/problem/2579)   | https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/inclineStairs.py |
 |                                                        |                                                              |
 
