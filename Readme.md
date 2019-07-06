@@ -16,16 +16,12 @@
 | [피보나치 함수](https://www.acmicpc.net/problem/1003)  | https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/fibonacci.py |
 |    [RGB거리](https://www.acmicpc.net/problem/1149)     | https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/rgbStreet.py |
 
-```
-??
-
-```
-
-```
-
-```
-
-~~~
-
-~~~
+|      |      |
+| ---- | ---- |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
 
