@@ -2,10 +2,20 @@ N = int(input())
 
 dp = []
 dp.append(0) # 0
-dp.append(1) # 1
-dp.append(2) # 2
-
-for i in range(3, N+1):
-    dp.append((dp[i-1] + dp[i-2])%10007)
-
-print(dp[N])
+'''
+    Solution
+    사용할 수 있는 타일의 종류는 1x2 , 2x1 이다.
+    이 경우, 첫째 줄에 들어 갈 수 있는 경우의 수만 생각하면된다.
+    1) 1x2 타일 : 가로 1칸 차지
+    2) 2x1 타일 : 가로 2칸 차지, 그 아래칸은 동일한 2x1 타일밖에 사용하지 못함.
+    즉, 1x2 타일과 2x2 타일을 사용하는 경우로 생각해도 경우의 수는 같을 것이다.
+'''
+for i in range(1, N+1):
+    if (i == 1):    # 1
+        dp.append(1)    
+    elif ( i == 2): # 2
+        dp.append(2)
+    else :
+        dp.append(dp[i-1] + dp[i-2])
+# 문제에서 방법의 수를 10007 로 나눈 결과를 출력해야한다고 명시함.
+print(int(dp[N]) % 10007)
