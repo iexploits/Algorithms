@@ -12,13 +12,12 @@
 
 |                          문제                          |                  코드 바로가기 ( Python 3)                   |
 | :----------------------------------------------------: | :----------------------------------------------------------: |
-|   [1로 만들기](https://www.acmicpc.net/problem/1463)   | [1로 만들기 코드](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/makeOne.py) |
-| [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | [1,2,3 더하기 코드](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/plusOneTwoThree.py) |
-|  [계단 오르기](https://www.acmicpc.net/problem/2579)   | [계단 오르기 코드](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/inclineStairs.py) |
-| [피보나치 함수](https://www.acmicpc.net/problem/1003)  | [피보나치 함수 코드](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/fibonacci.py) |
-|    [RGB거리](https://www.acmicpc.net/problem/1149)     | [RGB거리 코드](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/rgbStreet.py) |
-|  [2×n 타일링](https://www.acmicpc.net/problem/11726)   | [2xn 타일링 코드](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/2xnTiles.py) |
-|     [이친수](https://www.acmicpc.net/problem/2193)     | [이친수 코드](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/pinaryNumber.py) |
-|  [정수 삼각형](https://www.acmicpc.net/problem/1932)   | [정수 삼각형 코드](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/decimalTriangle.py) |
-|  [포도주 시식](https://www.acmicpc.net/problem/2156)   | [포도주 시식 코드](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/drinkWine.py) |
-
+|   [1로 만들기](https://www.acmicpc.net/problem/1463)   | [1로 만들기 코드 바로가기](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/makeOne.py) |
+| [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | [1,2,3 더하기 코드 바로가기](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/plusOneTwoThree.py) |
+|  [계단 오르기](https://www.acmicpc.net/problem/2579)   | [계단 오르기 코드 바로가기](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/inclineStairs.py) |
+| [피보나치 함수](https://www.acmicpc.net/problem/1003)  | [피보나치 함수 코드 바로가기](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/fibonacci.py) |
+|    [RGB거리](https://www.acmicpc.net/problem/1149)     | [RGB 거리 코드 바로가기](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/rgbStreet.py) |
+|  [2×n 타일링](https://www.acmicpc.net/problem/11726)   | [2xn 타일링 코드 바로가기](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/2xnTiles.py) |
+|     [이친수](https://www.acmicpc.net/problem/2193)     | [이친수 코드 바로가기](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/pinaryNumber.py) |
+|  [정수 삼각형](https://www.acmicpc.net/problem/1932)   | [정수 삼각형 코드 바로가기](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/decimalTriangle.py) |
+|  [포도주 시식](https://www.acmicpc.net/problem/2156)   | [포도주 시식 코드 바로가기](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/drinkWine.py) |
