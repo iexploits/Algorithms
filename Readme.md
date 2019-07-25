@@ -8,8 +8,6 @@
 ----
 
 <h5>동적 프로그래밍 ( Dynamic Programming )</h5>
-
-
 |                          문제                          |                  코드 바로가기 ( Python 3)                   |
 | :----------------------------------------------------: | :----------------------------------------------------------: |
 |   [1로 만들기](https://www.acmicpc.net/problem/1463)   | [1로 만들기 코드 바로가기](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/makeOne.py) |
@@ -21,3 +19,8 @@
 |     [이친수](https://www.acmicpc.net/problem/2193)     | [이친수 코드 바로가기](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/pinaryNumber.py) |
 |  [정수 삼각형](https://www.acmicpc.net/problem/1932)   | [정수 삼각형 코드 바로가기](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/decimalTriangle.py) |
 |  [포도주 시식](https://www.acmicpc.net/problem/2156)   | [포도주 시식 코드 바로가기](https://github.com/iexploits/Algorithms/blob/master/Algorithms/DynamicProgramming/drinkWine.py) |
+
+
+
+<h5>탐색 ( Search - DFS , BFS ) </h5>
+

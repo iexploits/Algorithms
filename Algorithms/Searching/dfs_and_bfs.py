@@ -1,4 +1,6 @@
 '''
+    BOJ 1260 - DFS 와 BFS
+    
     DFS [ Stack 개념 활용 ]
     BFS [ Queue 개념 활용 ] 
 
@@ -31,6 +33,10 @@ def dfs(root):
         if curr not in visited:
             visited.append(curr)
             # Reverse = True 옵션을 통해 작은 순서대로 탐색
+            ''' 
+                차집합 개념 활용 : 현재 뽑아놓은 노드 이후에 방문할 노드들 ( graph[curr] ) 에서 
+                                visited 를 차집합 연산. 즉 이미 방문한 노드가 있다면 빼버려야함.
+            '''
             stack.extend(sorted(list(graph[curr] - set(visited)), reverse=True))      
     result = list(map(str,visited))
     Search_Printer(result)
