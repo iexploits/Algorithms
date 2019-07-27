@@ -1,22 +1,23 @@
 def isInside(x):
-    return 0<= x <= 100000
+    return 0 <= x <= 100000
 
 def BFS(start):
     queue = [start]
-    cnt = 0
 
     while queue:
         now = queue.pop(0)
-        for nxt in [now-1, now+1, now*2] :
-            if isInside(nxt) and visit[nxt] == False:
-                visit[nxt] = True
-                if nxt == K :
-                    return cnt
+        if now is K :
+            return
+
+        for nxt in (now-1, now+1, now*2) :
+            # 더 깊은 깊이 내에서의 탐색에서 방문할 가능성이 존재. 이를 방지하기 위한 트리거 포인트.
+            if isInside(nxt) and not dist[nxt]:
+                dist[nxt] = dist[now] + 1
                 queue.append(nxt)
-                cnt += 1
 
 
 N, K = map(int, input().split())
 # 위치 : 0 ~ 100000
-visit = [False]*100001
-print(BFS(N))
+dist = [0] * 100001
+BFS(N)
+print(dist[K])
