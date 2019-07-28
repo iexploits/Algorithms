@@ -34,7 +34,7 @@ for i in range(h):
         maze[i][j] = int(tmp[j])
 
 # 상하좌우
-dx = [0,0,1,-1]
+dx = [0,0,-1,1]
 dy = [-1,1,0,0]
 
 BFS([0,0],[h-1,w-1])
