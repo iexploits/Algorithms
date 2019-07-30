@@ -33,9 +33,7 @@ def BFS(start):
 def BFS_NoVisitCheck(start):
     # 시작 지점 방문 
     queue = [start]
-    y, x = start
-    visit[y][x] = True
-    cnt = 1
+    cnt = 0
     while queue:
         y, x = queue.pop(0)
         for i in range(4):
