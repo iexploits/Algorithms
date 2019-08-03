@@ -1,9 +1,11 @@
+from collections import deque
+
 def isInside(y,x):
     return (0<= y <N) and (0<= x <M)
 
 def BFS():
     while queue:
-        y, x = queue.pop(0)
+        y, x = queue.popleft()
         for i in range(4):
             ny = y + dy[i]
             nx = x + dx[i] 
@@ -22,7 +24,7 @@ def Solve():
     return (res - 1)
 
 M, N = map(int, input().split())
-queue = []
+queue = deque()
 tomato = []
 
 dx = [1,-1,0,0]
